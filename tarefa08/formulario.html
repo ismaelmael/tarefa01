@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            input[type=text] {
+                width: 30%;
+                padding: 12px 20px;
+                margin: 8px 0px;
+                box-sizing: border-box;
+                border: 2px solid cyan;
+                border-radius: 4px;
+                background-color: aquamarine;
+                
+            }
+            input[type=text]:focus {
+                background-color:whitesmoke ;
+                color:grey;
+            }
+            input[type=reset] {
+                background-color:cyan;
+                border: none;
+                color:black;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+
+            input[type=submit] {
+                background-color: rgb(173, 221, 213);
+                border: none;
+                color:rgb(51, 48, 48);
+                padding: 20px 40px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor:pointer;
+                border-radius: 10px;
+            }
+
+            input[type=reset]:focus {
+                background-color: red;
+                color:black;
+            }
+            input[type=submit]:focus {
+                background-color: red;
+                color:black;
+            }
+
+            input[type=date] {
+                width:30%;
+
+            }
+            input[type=password] {
+                width:30%;
+            }
+
+            .css{
+                background-color: rgb(97, 226, 187);
+                width: 50%;
+                border-radius: 10px;
+            }
+
+            body {
+                background-color: rgb(212, 238, 232);
+            }
+
+            h1 {
+                background-color: rgb(198, 250, 243);
+                color:rgb(75, 201, 159);
+                width: 50%;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>DADOS GERAIS</h1>
+        </center>
+        <br>
+        <br>
+        <center>
+        <form class="css">
+            <label for="fname">Digite o seu nome: </laber><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="idade">Digite a sua idade</label><br>
+            <input type="text" id="idade" name="idade" maxlength="3"><br>
+            <input type="reset"><br>
+        </form>
+        </center>
+
+        <br>
+        <center>
+        <form class="css">
+            <label for="aniversario">Coloque o seu aniversario: </label><br>
+            <input type="date" id="aniversario" name="aniversario"><br>
+            <input type="reset">
+        </form>
+        </center>
+        <center>
+        <h2>DADOS PESSOAIS</h2>
+        </center>
+        <center>
+        <form class="css">
+            <label for="email">Insira o seu email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <br>
+            <label for="pwd">Insira o numero do seu cartao: </label><br>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <label for="nmr">Insira o codigo do cartao: </label><br>
+            <input type="password" id="codigo" name="codigo" max="3"><br>
+            <br>
+
+        </form>
+        </center>
+        <center>
+        <form class="css">
+            <input type="radio" id="masculino" value="masculino">
+            <label for="masculino">Masculino</laber><br>
+            <input type="radio" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="Outro" value="Outro">
+            <label for="Outro">Outro</label><br>
+            <input type="reset"><br>
+            <br>
+        </form>
+        </center>
+        <center>
+        <form class="css">
+            <input type="checkbox" id="EM" value="EM">
+            <label for="EM">Eu tenho Ensino médio completo</label><br>
+            <input type="checkbox" id="faculdadeIncompleta" value="faculdadeIncompleta">
+            <label for="faculdadeIncompleta">Eu tenho faculdade incompleta</label><br>
+            <input type="checkbox" id="faculdade" value="faculdade">
+            <label for="faculdade">Eu fiz a faculdade por completo</label><br>
+            <input type="reset">
+        </form>
+        </center>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <form>
+            <input type="submit">
+        </form>
+        
+        </center>
+
+
+    </body>
+
+</html>

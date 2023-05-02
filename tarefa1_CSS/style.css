@@ -1,0 +1,30 @@
+nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: cyan;
+    border-width: 10px;
+    border-style: groove;
+    border-color: blue;
+    font-family: sans-serif;
+}
+
+#cantoesquerdo {
+    padding-left: 400px;
+    padding-right: 600px;
+}
+
+.meio{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#cantodireito {
+    padding-left: 600px;
+    padding-right: 400px;
+}
+
+header{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}

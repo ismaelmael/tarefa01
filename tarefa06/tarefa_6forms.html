@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form {
+                align-items: center;
+                text-align: center;
+            }
+            label {
+                text-align: center;
+            }
+            input {
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <forms>
+            <label for="nome">DIGITE O SEU NOME: </label>
+            <input type="text" id="nome" name="nome" value="DIGITE AQUI"><br>
+            <label for="sobrenome">DIGITE O SEU SOBRENOME</label>
+            <input type="text" id="sobrenome" name="sobrenome" value="DIGITE AQUI">
+        </forms>
+        </center>
+        <h2>Gênero</h2>
+        <center>
+        <forms>
+            <input type="radio" id="genero" value="Homem">
+            <label for="Homem">Homem</label><br>
+            <input type="radio" id="genero" value="Mulher">
+            <label for="Mulher">Mulher</label><br>
+            <input type="radio" id="genero" value="NaoDirei">
+            <label for="NaoDirei">Prefiro não especificar</label><br>
+        </forms>
+        </center>
+        <h2>Meios de transporte que utiliza</h2>
+        <center>
+        <p>Marque os meios de transporte que constuma usar no dia a dia</p>
+        </center>
+        <center>
+        <forms>
+            <input type="checkbox" id="veiculo1" name="veiculo1" value="Carro">
+            <label for="veiculo1">Carro</label>
+            <input type="checkbox" id="veiculo2" name="veiculo2" value="Moto">
+            <label for="veiculo2">Moto</label>
+            <input type="checkbox" id="veiculo3" name="veiculo3" value="Onibus">
+            <label for="veiculo3">Onibus</label>
+            <input type="checkbox" id="veiculo4" name="veiculo4" value="uber">
+            <label for="veiculo4">uber</label>
+        </forms>
+        </center>
+        <h2>
+            Conta Bancária
+        </h2>
+        <center>
+        <forms>
+            <label for="banco">Digite o nome do banco: </label>
+            <input type="text" id="banco" nome="banco" value="DIGITE AQUI O BANCO"><br>
+            <label for="nmrcartao">insira abaixo o número do cartão:</label><br>
+            <input type="password" id="nmrcartao" name="nmrcartao">
+        </forms>
+        </center>
+        <center>
+        <forms>
+            <input type="submit" value="submit">
+        </forms>
+        </center>
+    </body>
+
+</html>
