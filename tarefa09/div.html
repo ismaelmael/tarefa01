@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div</title>
+        <style>
+            header {
+                margin: auto;
+                width: 50%;
+                background-color: rgb(198, 98, 245);
+                text-align: center;
+                font-family: sans-serif;
+                font-size:xx-large;
+            }
+
+            body {
+                background-color: rgb(238, 200, 241);
+            }
+
+            td {
+                background-color: rgb(182, 243, 233);
+                margin: 10px 0px;
+                padding: 0px 220px;
+            }
+            #futevolei {
+                border: 5px solid purple;
+            }
+            div {
+                width: 20%;
+                height: 300px;
+            }
+            #futevolei {
+                background-color:antiquewhite;
+                position: absolute;
+                top: 100px;
+                left: 1400px;
+            }
+            #futsal {
+                background-color: beige;
+                position: relative;
+                top: 120px;
+                left: 900px;
+            }
+            #volei{
+                position: fixed;
+                background-color: blanchedalmond;
+                top: 500px;
+                left: 500px;
+                text-align: center;
+            }
+            #basquete {
+                position:static;
+                background-color: brown;
+                top: 300px;
+                left: 300px;
+            }
+            #b_tenis{
+                position:sticky;
+                background-color: burlywood;
+                top:0px;
+                right: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Esportes que eu gosto</header>
+        <nav>
+            <table>
+                <th>
+                    <td>Futevolei</td>
+                    <td>Futsal</td>
+                    <td>volei</td>
+                    <td>basquete</td>
+                </th>
+            </table>
+        </nav>
+        <a href="https://pt.wikipedia.org/wiki/Futev%C3%B4lei">
+        <div id="futevolei">
+            <p>futevolei</p>
+        </div>
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Futsal">
+        <div id="futsal">
+            <p>futsal</p>
+            <pre>
+                Segundo lugar
+            </pre>
+        </div>
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Voleibol">
+        <div id="volei">
+            <p>volei</p>
+        </div>
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Basquetebol">
+        <div id="basquete">
+            <p>basquete</p>
+        </div>
+        </a>
+        <a href="https://blog.totalpass.com.br/atividade-fisica/beach-tennis-o-que-e-suas-regras-e-beneficios/">
+        <div id="b_tenis">
+            <p>beach tenis</p>
+        </div>
+        </a>
+    </body>
+</html>
